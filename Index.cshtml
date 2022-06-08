@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Web.Models;
+@model List<History>;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Province</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+</head>
+<body>
+    <h1>Customer History Information</h1>
+    <table border="1">
+        <tr>
+            <th>HistoryId</th>
+            <th>Name</th>
+            <th>Username</th>
+            <th>TypeHistory</th>
+
+        </tr>
+        @{
+            foreach (History a in Model)
+            {
+                <tr>
+                    <td>@a.HistoryId</td>
+                    <td>@a.Name </td>
+                    <td>@a.Username </td>
+                    <td>@a.TypeHistory</td>
+                </tr>
+            }
+        }
+    </table>
+    <button><a href="@Url.Action("Index","Home")">Back to previous page</a></button>
+</body>
+</html>
+
