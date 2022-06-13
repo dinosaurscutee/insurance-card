@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using InsuranceCard1.Models
+@model List<Compensationhistory>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>List of Conpensation History</title>
+    <link rel="stylesheet" href="~/css/styleTable.css" />
+</head>
+<body>
+    <h2> Lịch sử vi phạm hợp đồng </h2>
+    <p>
+        <table style="width: 100%">
+            <tr>
+                <th>ID</th>
+                <th>Tên Khách Hàng</th>
+                <th>Tên Đăng Nhập</th>
+                <th>Số Điện Thoại</th>
+                <th>Tổng số tiền</th>
+                <th>Ngày vi phạm</th>
+                <th>Thông tin vi phạm</th>
+                <th>Status</th>
+                
+            </tr>
+            @foreach (Compensationhistory a in Model)
+            {
+                <tr>
+                    <td>@a.UserId  </td>
+                    <td>@a.Name </td>
+                    <td>@a.UserName </td>
+                    <td>@a.UserPhone </td>
+                    <td>@a.Amount </td>
+                    <td>@a.Date </td>
+                    <td>@a.CompensationInfo </td>
+                    <td>@a.Status </td>
+                    
+                </tr>
+            }
+        </table>
+</body>
+</html>

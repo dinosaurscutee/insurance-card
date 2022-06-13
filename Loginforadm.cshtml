@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styleLogin.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="text">
+                Đăng nhập Quản trị viên 
+            </div>
+            <form action="/Login/CheckAccAdm" method="post">
+                <div class="data">
+                    <input type="text" name="AdAcc.UserName" value="" placeholder="Tên Đăng Nhập">
+                </div>
+                <div class="data">
+                    <input type="password" name="AdAcc.Password" value="" placeholder="Mật khẩu">
+                </div>
+                <p>
+                    <h4 style="color:red">@ViewData["mess1"]</h4>
+                </p>
+                <div class="btn">
+                    <div class="inner"></div>
+                    <button type="submit" value="Sign In">Đăng nhập</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
