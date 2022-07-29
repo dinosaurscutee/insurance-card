@@ -1,0 +1,353 @@
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfoInputs.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfo.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CoreCompileInputs.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.MvcApplicationPartsAssemblyInfo.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.Development.json
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.json
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.exe
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.deps.json
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.json
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.dev.json
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.pdb
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Humanizer.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.Manifest.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.xml
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\scopedcss\bundle\InsuranceCard1.styles.css
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CopyComplete
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.pdb
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.genruntimeconfig.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\web.config
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.AssemblyReference.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.input.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.output.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorCoreGenerate.cache
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CompensationHistory\List.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Contract\Index.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\DashBroad.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Add.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Edit.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\EditPerson.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\List.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Personal.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Register.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Accident.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Payment.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\CheckAcc.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforadm.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforuser.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\StaffDashBoard\StaffIndex.cshtml.g.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cs
+C:\Web Project\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\web.config
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.json
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.exe
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.deps.json
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.json
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.pdb
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfo.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.Manifest.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.xml
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\scopedcss\bundle\InsuranceCard1.styles.css
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CopyComplete
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.pdb
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.genruntimeconfig.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.input.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.output.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorCoreGenerate.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CompensationHistory\List.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Contract\Index.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\DashBroad.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Add.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Edit.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\EditPerson.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\List.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Personal.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Register.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Accident.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Payment.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\CheckAcc.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforadm.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforuser.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\StaffDashBoard\StaffIndex.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Punishment.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Chart\ChartIndex.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\CompensationContact.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\AccidentContact.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\PunishmentContact.cshtml.g.cs
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Web.Optimization.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\WebGrease.dll
+C:\Users\Admin\source\repos\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Compensation.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\web.config
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.json
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.exe
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.deps.json
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.json
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.dev.json
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.pdb
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Humanizer.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Web.Optimization.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\WebGrease.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.AssemblyReference.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfoInputs.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfo.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CoreCompileInputs.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.Manifest.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.xml
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\scopedcss\bundle\InsuranceCard1.styles.css
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CopyComplete
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\ref\InsuranceCard1.dll
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.pdb
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.genruntimeconfig.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.input.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.output.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorCoreGenerate.cache
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Chart\ChartIndex.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CompensationHistory\List.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Contract\Index.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\AccidentContact.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\CompensationContact.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\DashBroad.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\PunishmentContact.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Add.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Edit.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\EditPerson.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\List.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Payment.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Personal.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Register.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Accident.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Compensation.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Payment.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Punishment.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\CheckAcc.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforadm.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforuser.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\StaffDashBoard\StaffIndex.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Change.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Confirm.cshtml.g.cs
+C:\Users\win\Downloads\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Forget.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\web.config
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.Development.json
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\appsettings.json
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.exe
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.deps.json
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.json
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.runtimeconfig.dev.json
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\ref\InsuranceCard1.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.pdb
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Antlr3.Runtime.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Humanizer.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Web.Optimization.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\WebGrease.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.AssemblyReference.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfoInputs.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.AssemblyInfo.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CoreCompileInputs.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.MvcApplicationPartsAssemblyInfo.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorAssemblyInfo.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.Manifest.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\staticwebassets\InsuranceCard1.StaticWebAssets.xml
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\scopedcss\bundle\InsuranceCard1.styles.css
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.input.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.TagHelpers.output.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorCoreGenerate.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Chart\ChartIndex.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CompensationHistory\List.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Contract\Index.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\AccidentContact.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\CompensationContact.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\DashBroad.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerDashBoard\PunishmentContact.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Add.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Edit.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\EditPerson.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\List.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Payment.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Personal.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\CustomerUser\Register.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Change.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Confirm.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Forgetpass\Forget.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Accident.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Compensation.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Payment.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\PaymentPersonal.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\History\Punishment.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\CheckAcc.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforadm.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Login\Loginforuser.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\StaffDashBoard\StaffIndex.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.RazorTargetAssemblyInfo.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.Views.pdb
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.csproj.CopyComplete
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\ref\InsuranceCard1.dll
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.pdb
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\InsuranceCard1.genruntimeconfig.cache
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Information\Car.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Information\Accident.cshtml.g.cs
+C:\FinalProjectSWP\InsuranceCard\InsuranceCard1\obj\Debug\net5.0\Razor\Views\Information\Health.cshtml.g.cs
