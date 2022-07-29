@@ -1,0 +1,414 @@
+﻿@using InsuranceCard1.Models
+@model CustomerUser
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="hdefault">
+    <meta charset="utf-8" />
+    <meta name="description"
+          content="Mua bảo hiểm sức khỏe trực tuyến của Bảo hiểm BIDV, chi trả đến 2,5 triệu/lần khám ngoại trú, đến 9 triệu/ngày nội trú, bồi thường đơn giản, nhanh chóng" />
+    <meta name="author" content="Time Universal" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="google-site-verification" content="aZ6rvhYofRdrFiCsZ2SBQwnqnSfSX6-0NQikU8ptcOM" />
+    <meta name="google-site-verification" content="aZ6rvhYofRdrFiCsZ2SBQwnqnSfSX6-0NQikU8ptcOM" />
+
+
+
+    <title>
+        Bảo hiểm sức khỏe toàn diện (BIC HealthCare)
+    </title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+
+
+    <style type="text/css">
+        .breadcumb {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/cus.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/ress.css" />
+    <meta name="keywords"
+          content="bảo hiểm sức khỏe, bảo hiểm sức khỏe toàn diện, mua bảo hiểm sức khỏe, bảo hiểm thai sản, mua bảo hiểm thai sản, bao hiem suc khoe, bao hiem thai san" />
+</head>
+
+<body>
+    <section class="top">
+        <div class="container">
+
+            <nav class="nav-top border-right-nav-top">
+                <!-- user info-->
+            </nav>
+
+            <script type="text/javascript">
+                $(function () {
+                    $(".li-acc>a").click(function (e) {
+                        e.stopPropagation();
+                        $(".panel-acc").stop().slideToggle();
+                        return false;
+                    });
+                });
+            </script>
+
+            <nav class="nav-top nav-top1">
+                <li><a alt="" href="#">Giới thiệu</a></li>
+                <li><a alt="" href="#">Khuyến mại</a></li>
+                <li><a alt="" href="#">Liên hệ</a><br /></li>
+                <li><a id="login-btn" onclick="return false" alt="" href="">Đăng nhập/Đăng ký</a><br /></li>
+            </nav>
+
+        </div>
+    </section>
+    <section class="header shadow ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12 leftbaner">
+                    <div class="logo">
+                        <a href="#"><img src="~/img/logo.png" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-6 col-sm-6 col-xs-6 hide-pad">
+                    <div class="menubar">
+                        <ul class="nav">
+                            <li class=""><a href="#" class="">Bảo hiểm ô tô</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm sức khoẻ</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm tai nạn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- InstanceBeginEditable name="main-content" -->
+    <div class="container">
+
+    </div>
+    <div id="pnMain">
+        <!-- content -->
+        <!-- banner -->
+        <section class="subslide shadow">
+            <img src="~/img/suckhoe.jpg" />
+            <div class="caption-subslide">
+                <div></div>
+            </div>
+        </section>
+        <div class="container">
+
+            <div style="clear: both">
+            </div>
+            <div id="ctl19_divbreadcumb" class="breadcumb">
+                <ul>
+                    <li><a href="#" alt=''>Trang chủ</a></li>
+                    <li><a href="#" alt=''>Bảo hiểm sức khỏe toàn diện (BIC Tâm An)</a></li>
+                    <li>Thông tin chung</li>
+                </ul>
+            </div>
+            <!-- left menu -->
+            <div id="ctl19_divleftSideBar" class="left_sidebar">
+            </div>
+            <!-- end left menu -->
+            <section class="main-content page-info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-12">
+                            <div class="content_3col">
+                                <div id="ctl19_divdetail">
+                                    <p>
+                                        @if (Model != null)
+                                        {
+                                            <div class="fa fa-shopping-cart"><a href="/CustomerUser/Payment">  Tính phí & Đặt mua</a></div>
+                                        }
+                                        <h1 class="myriad_pro_semibold">BẢO HIỂM SỨC KHỎE VÀ TAI NẠN CÁ NHÂN</h1>
+                                        <div style="display: block; border-style: solid; border-width: 1px; border-color: #F00; border-radius: 7px 7px 7px 7px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; padding: 0px 10px 10px 10px;">
+                                            <h2>Phạm vi bảo hiểm: </h2> BIC chi trả viện phí và các chi phí khác theo quy
+                                            định tại <a href="#" alt="" style="color: #5548C7;">Bảng Quyền lợi bảo hiểm</a>
+                                            trong trường hợp người được bảo hiểm đi khám chữa hoặc nằm viện nội trú do các
+                                            nguyên nhân ốm đau, bệnh tật, tai nạn.
+                                    </p>
+                                    <h2>Đối tượng bảo hiểm: </h2>
+                                    <p>
+                                        Đơn bảo hiểm này sẽ bảo hiểm cho các công dân Việt Nam và Người nước ngoài
+                                        đang cư trú hợp pháp tại Việt Nam từ đủ 1 tuổi (12 tháng) đến đủ 65 tuổi tại
+                                        thời điểm bắt đầu hiệu lực bảo hiểm.
+                                    </p>
+                                    <p>Loại trừ:</p>
+                                    <ul>
+                                        <li>
+                                            Những người bị bệnh tâm thần, bênh lao, bệnh phong, bệnh ung thư bệnh di
+                                            truyền, bệnh bẩm sinh;
+                                        </li>
+                                        <li>
+                                            Những người bị thương tật vĩnh viễn từ 50% trở lên (trường hợp Người
+                                            được bảo hiểm không có Giấy chứng nhận thương tật do cơ quan có thẩm
+                                            quyền phát hành thì việc xác nhận tỷ lệ thương tật sẽ căn cứ theo quy
+                                            định "Bảng tỷ lệ phần trăm tổn thương cơ thể do thương tích" hiện hành
+                                            của Bộ Y tế Việt Nam).
+                                        </li>
+                                        <li>Những người đang trong thời gian điều trị bệnh hoặc thương tật;</li>
+                                    </ul>
+                                    <p>
+                                        Đơn bảo hiểm này có thể được tái tục từ năm này sang năm khác trên cơ sở thoả
+                                        thuận của các bên, nhưng trong mọi trường hợp Đơn bảo hiểm này sẽ chấm dứt
+                                        đối với Cá nhân được bảo hiểm tại thời điểm kết thúc thời hạn bảo hiểm mà
+                                        trong thời hạn đó Cá nhân được bảo hiểm đạt 65 tuổi.
+                                    </p>
+                                </div>
+                                <div style="width: 100%;">
+
+                                    <h1 class="myriad_pro_semibold">
+                                    </h1>
+                                    <div style="display: block; border-style: solid; border-width: 1px; border-color: #F00;
+    border-radius: 7px 7px 7px 7px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 0px 10px 10px 10px;">
+                                        <h2>Thông tin về các gói bảo hiểm: </h2>
+                                        Sản phẩm bảo hiểm sức khỏe và tai nạn cá nhân của BIC gồm 2 gói bảo hiểm:
+                                        <strong>BIC Tâm An</strong> và <strong>BIC Nội Trú</strong></p>
+                                        <p>
+                                            <h2>BIC Tâm An: </h2> Được thiết kế dành cho các khách hàng có nhu cầu tham
+                                            gia bảo hiểm với cả 2 quyền lợi nội và ngoại trú.
+                                        </p>
+                                        <ul>
+                                            <li>Chi trả đến 1 tỷ đồng đối với trường hợp tai nạn;</li>
+                                            <li>Chi trả đến 3 triệu đồng/1 lần khám và điều trị ngoại trú;</li>
+                                            <li>Chi trả đến 10 triệu đồng/1 ngày điều trị nội trú;</li>
+                                            <li>Chi trả đến 200 triệu đồng/1 ca phẫu thuật ;</li>
+                                        </ul>
+                                        <h2>BIC Nội trú: </h2>
+                                        <ul>
+                                            <li>
+                                                Tách riêng quyền lợi cho các khách hàng chỉ quan tâm đến quyền lợi
+                                                nội trú;
+                                            </li>
+                                            <li>Tiết kiệm tối đa phí tham gia bảo hiểm </li>
+                                        </ul>
+                                        <h2>Điểm ưu việt của sản phẩm: </h2>
+                                        <p>
+                                            • Quyền lợi bảo hiểm đa dạng, phù hợp mọi nhu cầu với 9 chương trình bảo
+                                            hiểm;
+                                        </p>
+                                        <p>
+                                            • Không tách biệt giới hạn chi phí giường nằm trong hạn mức chi phí điều
+                                            trị nội trú;
+                                        </p>
+                                        <p>• Không áp dụng đồng chi trả cho mọi lứa tuổi;</p>
+                                        <p>
+                                            • Áp dụng chi trả tại tất cả các bệnh viện và phòng khám trên toàn quốc.
+                                        </p>
+                                        <h2>Những điểm cần lưu ý: </h2>
+                                        <p>
+                                            • Trẻ em nhóm từ 1 đến 6 tuổi bắt buộc mua kèm với bố/mẹ hoặc bố/mẹ đã
+                                            tham gia ít nhất 01 Chương trình bảo hiểm sức khỏe còn hiệu lực tại BIC.
+                                            Chương trình bảo hiểm của con chỉ được áp dụng mức tương đương hoặc thấp
+                                            hơn Chương trình của bố/mẹ.
+                                        </p>
+                                        <p>
+                                            • Quy định chi tiết về <strong>THỜI GIAN CHỜ</strong> đối với từng loại
+                                            nhóm bệnh:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                Các bệnh hô hấp bao gồm viêm phế quản, viêm tiểu phế quản,
+                                                hen/suyễn, viêm phổi các loại: thời gian chờ 06 tháng cho đối tượng
+                                                trẻ em từ 01 đến 06 tuổi;
+                                            </li>
+                                            <li>
+                                                Thai sản: thời gian chờ 01 năm với sinh thường hoặc sinh mổ, 280
+                                                ngày với biến chứng thai sản;
+                                            </li>
+                                            <li>Các bệnh mãn tính, bệnh có sẵn: 365 ngày; </li>
+                                            <li>Các bệnh thông thường không liệt kê trong quy tắc: 30 ngày; </li>
+                                        </ul>
+                                        <p>
+                                            Xem chi tiết <a href="#" alt="" style="color: #5548C7;">
+                                                Các trường hợp
+                                                không được bồi thường năm bảo hiểm đầu tiên
+                                            </a>. Từ năm bảo hiểm thứ
+                                            hai trở đi, BIC sẽ chi trả bình thường cho các trường hợp loại trừ ở năm
+                                            thứ nhất.
+                                        </p>
+                                        <p>
+                                            Thời gian nộp hồ sơ bồi thường: <span style="color: #ff0000;">
+                                                trong vòng
+                                                30 ngày
+                                            </span> kể từ ngày điều trị cuối cùng của mỗi đợt điều trị.
+                                        </p>
+                                    </div>
+                                    <div style="width: 100%;">
+                                    </div>
+                                    <div style="width: 50%; float: left;">
+                                    </div>
+                                    <br>
+                                    <div class="fa fa-shopping-cart">
+                                        <a href="#">Tính phí & Đặt mua</a>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-right">
+                        <div class="accordion" id="menuaccordion">
+                            <div class="subdetail">
+                                <div id="ctl19_menu_right">
+                                    <div class='sub-menuleft' id='menu-145'>
+                                        <a class='' href=''
+                                           data-toggle='collapse' data-target='#submenu-145' aria-expanded='true'
+                                           aria-controls='collapseOne'>
+                                            <span>
+                                                Bảo hiểm sức khỏe toàn diện (BIC Tâm
+                                                An)
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div id='submenu-145' class='collapsed' aria-labelledby='menu-145'
+                                         data-parent='#menuaccordion'>
+                                        <ul class='menu-left'>
+                                            <li><a href='#' alt='' class='menuleft-act'> Thông tin chung</a></li>
+                                            <li><a href='#' alt=''> Quyền lợi bảo hiểm</a></li>
+                                            <li><a href='#' alt=''> Biểu phí bảo hiểm</a></li>
+                                            <li><a href='#' alt=''> Hướng dẫn bồi thường</a></li>
+                                            <li>
+                                                <a href='#' alt=''>
+                                                    Danh sách cơ sở y tế liên kết bảo lãnh viện
+                                                    phí
+                                                </a>
+                                            </li>
+                                            <li><a href='#' alt=''> Download quy tắc, biểu mẫu</a></li>
+                                            <li><a href='#' alt=''> Tính phí & đặt mua</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ctl19_divright" class="right_sidebar">
+                            <div class="right_sidebar_block">
+                                <h3 class="myriad_pro_semibold">Thủ tục bồi thường bảo hiểm sức khỏe ?</h3>
+                                <a href="#"><img src="~/img/cancel.jpg" alt="Hướng dẫn bồi thường bảo hiểm sức khỏe"></a>
+                                <p>
+                                    Thực hiện tuần tự theo các bước sau để yêu cầu chúng tôi xử lý bồi thường cho quý
+                                    khách
+                                </p>
+                                <p style="margin-top:10px;">
+                                    <a class="block_more" href="#" alt="">Xem chi tiết</a>
+                                </p>
+                            </div>
+                            <div class="right_sidebar_block">
+                                <h3 class="myriad_pro_semibold">Quý khách mua bảo hiểm sức khỏe lần đầu ?</h3>
+                                <a href="#">
+                                    <img src="~/img/ftb.jpg"
+                                         alt="Kinh nghiệm, tư vấn mua bảo hiểm sức khỏe">
+                                </a>
+                                <p>
+                                    Ở đây, Quý khách sẽ xem được các thông tin lưu ý cho người lần đầu tiên mua bảo
+                                    hiểm sức khỏe, ...
+                                </p>
+                                <p style="margin-top:10px;">
+                                    <a class="block_more" href="#" alt="">Xem chi tiết</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
+    </div>
+
+    <div id="pnFooterBlock">
+
+    </div>
+
+    <section class="line-gray">
+        <div class="container">
+            <h2 class="title-pro text-center"><a href="">Trung tâm hỗ trợ khách hàng</a></h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-sup"><a href="#"><b>Các câu hỏi thường gặp</b></a></h3>
+                        <div class="inner-box item-height">
+                            <div class="intro-box-bottom">
+                                Giải đáp các thắc mắc của khách hàng về sản phẩm & dịch vụ
+                            </div>
+                            <a href="#" class="btn-box-bottom">
+                                Xem ngay <i class="fa fa-angle-right"
+                                            aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-truvan"><a href="#"><b>Truy vấn bồi thường online</b></a></h3>
+                        <div class="inner-box item-height">
+                            <div class="intro-box-bottom">
+                                Hỗ trợ Khách hàng tra cứu thông tin/theo dõi tình trạng hồ sơ bồi thường 24/7
+                            </div>
+                            <a href="#" class="btn-box-bottom">
+                                Xem ngay <i class="fa fa-angle-right"
+                                            aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-hot">
+                            <a href="#">
+                                <i class="fa fa-phone"
+                                   aria-hidden="true"></i><b> Liên hệ hỗ trợ</b>
+                            </a>
+                        </h3>
+                        <div class="inner-box item-height" style="font-size:19px">
+                            <a class="hotline-box" href="#"></a><br />
+                            <a class="hotline-box" href="#">190010jqk</a>
+                            <div>Email: #</div><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12">
+                    <ul class="nav-footer">
+
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Bảo mật & quyền riêng tư</a></li>
+                        <li><a href="#">Chính sách đổi và trả hàng</a></li>
+                        <li>
+                            <a href="#">Hình thức thanh toán và giao hàng</a>
+                        </li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <div class="linksmo">
+                        <a href="#" rel="nofollow" target="_blank" class="hvr-float shadow">
+                            <i class="fa fa-facebook facebook"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="info-footer">
+                <strong>Tổng Công ty Cổ phần Bảo hiểm </strong><br />
+                ĐC: thành phố Hà Nội <br />
+                ĐT:190010jqk <br />
+            </div>
+    </section>
+
+</body>
+
+
+</html>

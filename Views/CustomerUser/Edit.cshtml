@@ -1,0 +1,294 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using InsuranceCard1.Models
+@model CustomerUser
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styleList.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="top">
+        <div class="contenner">
+            <script type="text/javascript">
+                $(function () {
+                    $(".li-acc>a").click(function (e) {
+                        e.stopPropagation();
+                        $(".panel-acc").stop().slideToggle();
+                        return false;
+                    });
+                });
+            </script>
+
+            <nav class="nav-top nav-top1">
+                <li><a alt="" href="#">Giới thiệu</a></li>
+                <li><a alt="" href="#">Khuyến mại</a></li>
+                <li><a alt="" href="#">Liên hệ</a><br /></li>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="header shadow ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12 leftbaner">
+                    <div class="logo">
+                        <a href="#"><img src="~/img/logo.png" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-6 col-sm-6 col-xs-6 hide-pad">
+                    <div class="menubar">
+                        <ul class="nav">
+                            <li class=""><a href="#" class="">Bảo hiểm ô tô</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm sức khoẻ</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm tai nạn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container bootstrap snippet">
+                <div class="row">
+                    <div class="col-sm-10"><h1>@Model.Name</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <!--left col-->
+
+
+                        <div class="text-center">
+                            <img src="https://media.giphy.com/media/2eRHbjHKvYtgJsfXtG/giphy.gif" class="avatar img-circle img-thumbnail" alt="avatar">
+                        </div></hr><br>
+
+
+
+                    </div><!--/col-3-->
+                    <div class="col-sm-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <form class="form" action="/CustomerUser/DoEdit" method="post" id="registrationForm">
+                                    <input type="hidden" name="NewC.CustomerId" value="@Model.CustomerId" />
+                                    <div class="form-group">
+
+                                        <div class="col-xs-6">
+                                            <label for="last_name"><h4>Full name</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Name" value="@Model.Name" id="last_name" placeholder="Full name" title="enter your last name if any.">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <div class="col-xs-6">
+                                            <label for="phone"><h4>Gender</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Gender" value="@Model.Gender" id="phone" placeholder="gender" title="enter your phone number if any.">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <label for="mobile"><h4>Date of birth</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Dateofbirth" value="@Model.Dateofbirth" id="mobile" placeholder="DOB" title="enter your mobile number if any.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <div class="col-xs-6">
+                                            <label for="email"><h4>IdentityNumber</h4></label>
+                                            <input type="text" class="form-control" name="NewC.IdentityNumber" value="@Model.IdentityNumber" id="email" placeholder="IdentityNumber" title="enter your email.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <div class="col-xs-6">
+                                            <label for="email"><h4>Email</h4></label>
+                                            <input type="email" class="form-control" name="NewC.Email" value="@Model.Email" id="location" placeholder="Email" title="enter a location">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <div class="col-xs-6">
+                                            <label for="password"><h4>Phone</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Phone" value="@Model.Phone" id="password" placeholder="Phone" title="enter your password.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <label for="password2"><h4>UserName</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Username" value="@Model.Username" id="password2" placeholder="password2" title="enter your password2.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <label for="password2"><h4>Address</h4></label>
+                                            <input type="text" class="form-control" name="NewC.Address" value="@Model.Address" id="password2" placeholder="password2" title="enter your password2.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <label for="password2"><h4>Password</h4></label>
+                                            <input type="password" class="form-control" name="NewC.Password" value="@Model.Password" id="password2" placeholder="password2" title="enter your password2.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-6">
+                                            <label for="password2"><h4>StaffID</h4></label>
+                                            <input type="text" class="form-control" name="NewC.StaffID" value="@Model.StaffId" id="password2" placeholder="password2" title="enter your password2.">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <br>
+                                            <input class="btn btn-lg btn-success" type="submit">
+                                            <button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!--/tab-pane-->
+                    </div><!--/tab-content-->
+
+                </div><!--/col-9-->
+            </div><!--/row-->
+        </section>
+
+
+
+
+        <section class="line-gray">
+            <div class="container">
+                <h2 class="title-pro text-center"><a href="">Trung tâm hỗ trợ khách hàng</a></h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-sup">
+                                <a href="#">
+                                    <b>
+                                        Các câu hỏi thường
+                                        gặp
+                                    </b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height">
+                                <div class="intro-box-bottom">
+                                    Giải đáp các thắc mắc của khách hàng về sản phẩm & dịch vụ
+                                </div>
+                                <a href="#" class="btn-box-bottom">
+                                    Xem ngay <i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-truvan">
+                                <a href="#">
+                                    <b>
+                                        Truy vấn bồi thường
+                                        online
+                                    </b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height">
+                                <div class="intro-box-bottom">
+                                    Hỗ trợ Khách hàng tra cứu thông tin/theo dõi tình trạng hồ sơ bồi thường
+                                    24/7
+                                </div>
+                                <a href="#" class="btn-box-bottom">
+                                    Xem ngay <i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-hot">
+                                <a href="#">
+                                    <i class="fa fa-phone"
+                                       aria-hidden="true"></i><b> Liên hệ hỗ trợ</b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height" style="font-size:19px">
+                                <a class="hotline-box" href="#"></a><br />
+                                <a class="hotline-box" href="#">190010jqk</a>
+                                <div>Email: #</div><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-12">
+                        <ul class="nav-footer">
+
+                            <li><a href="dieu-khoan-su-dung-website">Điều khoản sử dụng</a></li>
+                            <li>
+                                <a href="bao-mat-va-quyen-rieng-tu-cua-khach-hang">
+                                    Bảo mật & quyền riêng
+                                    tư
+                                </a>
+                            </li>
+                            <li>
+                                <a href="huong-dan-huy-hop-dong-bao-hiem">Chính sách đổi và trả hàng</a>
+                            </li>
+                            <li>
+                                <a href="cac-buoc-dat-mua-bao-hiem-truc-tuyen">
+                                    Hình thức thanh toán và giao
+                                    hàng
+                                </a>
+                            </li>
+                            <li><a href="lien-he-voi-website-ban-bao-hiem-truc-tuyen">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <div class="linksmo">
+                            <a href="#" rel="nofollow" target="_blank" class="hvr-float shadow">
+                                <i class="fa fa-facebook facebook"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="info-footer">
+                    <strong>Tổng Công ty Cổ phần Bảo hiểm </strong><br />
+                    ĐC: thành phố Hà Nội <br />
+                    ĐT:190010jqk <br />
+                </div>
+        </section>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/myjs.js"></script>
+</body>
+
+</html>

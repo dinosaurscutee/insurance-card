@@ -1,0 +1,265 @@
+﻿@using InsuranceCard1.Models
+@model CustomerUser
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="hdefault">
+    <meta charset="utf-8" />
+    <meta name="description" content="#" />
+    <meta name="google-site-verification" content="aZ6rvhYofRdrFiCsZ2SBQwnqnSfSX6-0NQikU8ptcOM" />
+
+
+
+    <title>
+        Bảo hiểm tai nạn
+    </title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico" />
+
+
+    <style type="text/css">
+        .breadcumb {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/ress.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/cus.css" />
+    <meta name="keywords" content="bảo hiểm sức khỏe, bảo hiểm sức khỏe toàn diện, mua bảo hiểm sức khỏe, bảo hiểm thai sản, mua bảo hiểm thai sản, bao hiem suc khoe, bao hiem thai san" />
+</head>
+<body>
+    <section class="top">
+        <div class="container">
+
+            <nav class="nav-top border-right-nav-top">
+                <!-- user info-->
+            </nav>
+
+            <script type="text/javascript">
+                $(function () {
+                    $(".li-acc>a").click(function (e) {
+                        e.stopPropagation();
+                        $(".panel-acc").stop().slideToggle();
+                        return false;
+                    });
+                });
+            </script>
+
+            <nav class="nav-top nav-top1">
+                <li><a alt="" href="#">Giới thiệu</a></li>
+                <li><a alt="" href="#">Khuyến mại</a></li>
+                <li><a alt="" href="#">Liên hệ</a><br /></li>
+                <li><a id="login-btn" onclick="return false" alt="" href="">Đăng nhập/Đăng ký</a><br /></li>
+            </nav>
+
+        </div>
+    </section>
+    <section class="header shadow ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12 leftbaner">
+                    <div class="logo">
+                        <a href="#"><img src="~/img/logo.png" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-6 col-sm-6 col-xs-6 hide-pad">
+                    <div class="menubar">
+                        <ul class="nav">
+                            <li class=""><a href="#" class="">Bảo hiểm xe máy</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm sức khoẻ</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm tai nạn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- InstanceBeginEditable name="main-content" -->
+    <div class="container">
+
+    </div>
+    <div id="pnMain">
+        <!-- content -->
+        <!-- banner -->
+        <section class="subslide shadow">
+            <img src="~/img/tainan.jpg" />
+            <div class="caption-subslide">
+                <div></div>
+            </div>
+        </section>
+        <div class="container">
+
+            <div style="clear: both">
+            </div>
+            <div id="ctl19_divbreadcumb" class="breadcumb"><ul><li><a href="default.aspx" alt=''>Trang chủ</a></li><li>Thông tin chung</li></ul></div>
+            <!-- left menu -->
+            <div id="ctl19_divleftSideBar" class="left_sidebar">
+            </div>
+            <!-- end left menu -->
+            <section class="main-content page-info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-12">
+
+                            <div class="content_3col">
+                                <div id="ctl19_divdetail">
+                                    <p>
+                                        @if (Model != null)
+                                        {
+                                            <div class="fa fa-shopping-cart"><a href="/CustomerUser/Payment">  Tính phí & Đặt mua</a></div>
+                                        }
+                                        <h1 class="myriad_pro_semibold">BẢO HIỂM TAI NẠN 24/24</h1>
+                                        <h2>Đối tượng bảo hiểm: </h2>
+                                    </p><p>
+                                        Tổng Công ty Bảo hiểm BIDV (sau đây gọi tắt là BIC) nhận bảo hiểm tai nạn cho mọi
+                                        công dân Việt Nam từ 1 đến 70 tuổi và người nước ngoài đang học tập, làm việc, công
+                                        tác tại Việt Nam (sau đây gọi là Người được bảo hiểm) theo các điều khoản quy định
+                                        trong Quy tắc này, loại trừ các đối tượng sau đây:
+                                    </p>
+                                    <ul>
+                                        <li>Những người đang bị bệnh tâm thần, phong;</li>
+                                        <li>Những người đang bị tàn phế hoặc bị thương tật vĩnh viễn từ 50% trở lên;</li>
+                                        <li>Những người đang trong thời gian điều trị thương tật.</li>
+                                    </ul>
+                                    <h2>Phạm vi bảo hiểm:</h2>
+                                    <p>BIC bồi thường cho người được bảo hiểm bị tai nạn thuộc phạm vi bảo hiểm là những tai nạn xảy ra tại Việt Nam do:</p>
+                                    <ul>
+                                        <li>
+                                            Một lực bất ngờ, ngoài ý muốn của Người được bảo hiểm, từ bên ngoài tác động						  lên thân thể Người được bảo hiểm và là nguyên nhân trực tiếp duy nhất làm cho
+                                            Người được bảo hiểm bị chết hoặc bị thương tật thân thể.
+                                        </li>
+                                        <li>
+                                            Người được bảo hiểm có hành động cứu người, cứu tài sản của nhà nước, của nhân
+                                            dân và tham gia chống các hành động phạm pháp.
+                                        </li>
+                                    </ul>
+                                    <p>Trong mọi trường hợp. tổng số tiền bồi thường của BIC (bao gồm tất cả các chi phí trên) không vượt quá số tiền bảo hiểm / hạn mức trách nhiệm đã ghi trên Giấy chứng nhận bảo hiểm.</p>
+                                    <h2>Quyền lợi bảo hiểm:</h2>
+                                    <p>BIC bồi thường tối đa bằng  số tiền bảo hiểm / hạn mức trách nhiệm đã ghi trên Giấy chứng nhận bảo hiểm.</p>
+                                    <p>Trên website này hiện BIC chấp nhận số tiền bảo hiểm/người ở mức từ 10 triệu đến 50 triệu. </p>
+                                    <h2>Biểu phí bảo hiểm: </h2>
+                                    <p>Phí bảo hiểm/người = 0,28% x Số tiền bảo hiểm.</p>
+                                    <p>Ví dụ: nhóm 100 người mua mức bảo hiểm 50 triệu / người --&gt; Tổng phí = 100 x 0,28% x 50 triệu</p>
+                                    <h2>Download tài liệu, biểu mẫu:</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="BsioData/san-pham/tai-nan-24/3353-QTBH-tai-nan-24-24.pdf" class="normal" target="_blank" style="color:#5548C7">Quy tắc bảo hiểm tai nạn con người 24/24</a> của Tổng Công ty Bảo hiểm BIDV.
+                                        </li>
+                                        <li><a href="BsioData/san-pham/tai-nan-24/BM.1HD-GDBT-04-giay-yeu-cau-tra-tien-bao-hiem.doc" style="color:#5548C7;">Mẫu Giấy yêu cầu trả tiền bảo hiểm</a></li>
+                                    </ul>
+                                    <h2>Xem chi tiết</h2>
+                                    <ul>
+                                        <li><a href="http://baohiemtructuyen.com.vn/bao-hiem-tai-nan-24-24" alt="" style="color:#5548C7;">Thông tin chung</a></li>
+                                        <li><a href="http://baohiemtructuyen.com.vn/bao-hiem-tai-nan-24-24-huong-dan-boi-thuong" alt="" style="color:#5548C7;">Hướng dẫn bồi thường </a></li>
+                                        <li><a href=" BsioData/QD_0337_Bang_ty_le_tra_tien_BH_thuong_tat.pdf" alt="" style="color:#5548C7;">Bảng tỷ lệ trả tiền bảo hiểm thương tật </a></li>
+                                    </ul>
+                                    <div class="fa fa-shopping-cart"><a href="#">  Tính phí & Đặt mua</a></div>
+                                    <div style="margin-top:60px;"></div>
+
+                                    <div class="fb-like" data-href="http://baohiemtructuyen.com.vn/bao-hiem-trach-nhiem-dan-su-xe-may" data-layout="button_count" data-size="large" data-action="like" data-show-faces="true" data-share="true"></div></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-right">
+                            <div class="accordion" id="menuaccordion">
+                                <div class="subdetail">
+                                    <div id="ctl19_menu_right"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="pnFooterBlock">
+
+    </div>
+
+    <section class="line-gray">
+        <div class="container">
+            <h2 class="title-pro text-center"><a href="">Trung tâm hỗ trợ khách hàng</a></h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-sup"><a href="#"><b>Các câu hỏi thường gặp</b></a></h3>
+                        <div class="inner-box item-height">
+                            <div class="intro-box-bottom">
+                                Giải đáp các thắc mắc của khách hàng về sản phẩm & dịch vụ
+                            </div>
+                            <a href="#" class="btn-box-bottom">Xem ngay <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-truvan"><a href="#"><b>Truy vấn bồi thường online</b></a></h3>
+                        <div class="inner-box item-height">
+                            <div class="intro-box-bottom">
+                                Hỗ trợ Khách hàng tra cứu thông tin/theo dõi tình trạng hồ sơ bồi thường 24/7
+                            </div>
+                            <a href="#" class="btn-box-bottom">Xem ngay <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="box-bottom shadow hvr-float item-height">
+                        <h3 class="hd-box-bottom hd-box-hot">
+                            <a href="#">
+                                <i class="fa fa-phone"
+                                   aria-hidden="true"></i><b> Liên hệ hỗ trợ</b>
+                            </a>
+                        </h3>
+                        <div class="inner-box item-height" style="font-size:19px">
+                            <a class="hotline-box" href="#"></a><br />
+                            <a class="hotline-box" href="#">190010jqk</a>
+                            <div>Email: #</div><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12">
+                    <ul class="nav-footer">
+
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Bảo mật & quyền riêng tư</a></li>
+                        <li><a href="#">Chính sách đổi và trả hàng</a></li>
+                        <li>
+                            <a href="#">Hình thức thanh toán và giao hàng</a>
+                        </li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <div class="linksmo">
+                        <a href="#" rel="nofollow" target="_blank" class="hvr-float shadow">
+                            <i class="fa fa-facebook facebook"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="info-footer">
+                <strong>Tổng Công ty Cổ phần Bảo hiểm </strong><br />
+                ĐC: thành phố Hà Nội <br />
+                ĐT:190010jqk <br />
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+</html>

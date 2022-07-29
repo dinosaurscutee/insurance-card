@@ -1,0 +1,244 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using InsuranceCard1.Models
+@model List<Accidenthistory>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styleList.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <section class="top">
+        <div class="contenner">
+            <script type="text/javascript">
+                $(function () {
+                    $(".li-acc>a").click(function (e) {
+                        e.stopPropagation();
+                        $(".panel-acc").stop().slideToggle();
+                        return false;
+                    });
+                });
+            </script>
+
+            <nav class="nav-top nav-top1">
+                <li><a alt="" href="#">Giới thiệu</a></li>
+                <li><a alt="" href="#">Khuyến mại</a></li>
+                <li><a alt="" href="#">Liên hệ</a><br /></li>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="header shadow ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12 leftbaner">
+                    <div class="logo">
+                        <a href="#"><img src="~/img/logo.png" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-6 col-sm-6 col-xs-6 hide-pad">
+                    <div class="menubar">
+                        <ul class="nav">
+                            <li class=""><a href="#" class="">Bảo hiểm ô tô</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm sức khoẻ</a></li>
+                            <li class=""><a href="#" class="">Bảo hiểm tai nạn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="app-content content">
+                <div class="content-overlay"></div>
+                <div class="content-wrapper">
+                    <div class="content-header row">
+                        <div class="content-header-left col-md-6 col-12 mb-2 breadcrumb-new">
+                            <h3 class="content-header-title mb-0 d-inline-block"></h3>
+                            <div class="row breadcrumbs-top d-inline-block">
+                                <div class="breadcrumb-wrapper col-12">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item">
+                                            <a href="trang chủ">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a href="#">Thông tin lịch sử/ Lịch sử vi phạm</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="table-responsive">
+                                <table id="invoices-list"
+                                       class="table table-white-space table-bordered row-grouping display no-wrap icheck table-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Tên khách hàng</th>
+                                            <th>Tên tài khoản</th>
+                                            <th>Số điện thoại</th>
+                                            <th>Tổng tiền</th>
+                                            <th>Ngày thanh toán</th>
+                                            <th>Thông tin thanh toán</th>
+                                            <th>Tình trạng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (Accidenthistory a in Model)
+                                        {
+                                            <tr>
+                                                <td>@a.UserId</td>
+                                                <td>@a.Name </td>
+                                                <td>@a.UserName </td>
+                                                <td>@a.UserPhone </td>
+                                                <td>@a.Amount </td>
+                                                <td>@a.Date </td>
+                                                <td>@a.AccidentInfo </td>
+                                                <td>@a.Status </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+        </section>
+
+
+
+
+        <section class="line-gray">
+            <div class="container">
+                <h2 class="title-pro text-center"><a href="">Trung tâm hỗ trợ khách hàng</a></h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-sup">
+                                <a href="#">
+                                    <b>
+                                        Các câu hỏi thường
+                                        gặp
+                                    </b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height">
+                                <div class="intro-box-bottom">
+                                    Giải đáp các thắc mắc của khách hàng về sản phẩm & dịch vụ
+                                </div>
+                                <a href="#" class="btn-box-bottom">
+                                    Xem ngay <i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-truvan">
+                                <a href="#">
+                                    <b>
+                                        Truy vấn bồi thường
+                                        online
+                                    </b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height">
+                                <div class="intro-box-bottom">
+                                    Hỗ trợ Khách hàng tra cứu thông tin/theo dõi tình trạng hồ sơ bồi thường
+                                    24/7
+                                </div>
+                                <a href="#" class="btn-box-bottom">
+                                    Xem ngay <i class="fa fa-angle-right"
+                                                aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="box-bottom shadow hvr-float item-height">
+                            <h3 class="hd-box-bottom hd-box-hot">
+                                <a href="#">
+                                    <i class="fa fa-phone"
+                                       aria-hidden="true"></i><b> Liên hệ hỗ trợ</b>
+                                </a>
+                            </h3>
+                            <div class="inner-box item-height" style="font-size:19px">
+                                <a class="hotline-box" href="#"></a><br />
+                                <a class="hotline-box" href="#">190010jqk</a>
+                                <div>Email: #</div><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-12">
+                        <ul class="nav-footer">
+
+                            <li><a href="dieu-khoan-su-dung-website">Điều khoản sử dụng</a></li>
+                            <li>
+                                <a href="bao-mat-va-quyen-rieng-tu-cua-khach-hang">
+                                    Bảo mật & quyền riêng
+                                    tư
+                                </a>
+                            </li>
+                            <li>
+                                <a href="huong-dan-huy-hop-dong-bao-hiem">Chính sách đổi và trả hàng</a>
+                            </li>
+                            <li>
+                                <a href="cac-buoc-dat-mua-bao-hiem-truc-tuyen">
+                                    Hình thức thanh toán và giao
+                                    hàng
+                                </a>
+                            </li>
+                            <li><a href="lien-he-voi-website-ban-bao-hiem-truc-tuyen">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-12">
+                        <div class="linksmo">
+                            <a href="#" rel="nofollow" target="_blank" class="hvr-float shadow">
+                                <i class="fa fa-facebook facebook"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="info-footer">
+                    <strong>Tổng Công ty Cổ phần Bảo hiểm </strong><br />
+                    ĐC: thành phố Hà Nội <br />
+                    ĐT:190010jqk <br />
+                </div>
+        </section>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/myjs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model InsuranceCard1.Models.CustomerUser
+
+@{
+
+}
+
+<div class="box-form">
+    <header>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </header>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>List of products</title>
+        <link rel="stylesheet" href="~/css/Register.css" />
+    </head>
+    <div class="content-form">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <h2>Register Form</h2>
+            <div class="form-group ">
+                @Html.LabelFor(m => m.CustomerId)
+                @Html.TextBoxFor(m => m.CustomerId, "", new { @class = "txt-input", @placeholder = "CustomerId" })
+                @Html.ValidationMessageFor(m => m.CustomerId)
+                @ViewData["mess"]
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username)
+                @Html.TextBoxFor(m => m.Username, "", new { @class = "txt-input", @placeholder = "Username" })
+                @Html.ValidationMessageFor(m => m.Username)
+                @ViewData["mess1"]
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, "", new { @class = "txt-input", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m => m.Name)
+                @ViewData["mess2"]
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Gender)
+                @Html.RadioButtonFor(m => m.Gender, "male") Male
+                @Html.RadioButtonFor(m => m.Gender, "female") Female
+                @Html.ValidationMessageFor(m => m.Gender)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Dateofbirth)
+                @Html.TextBoxFor(m => m.Dateofbirth, "", new { @type = "date", @class = "form-control datepicker", @placeholder = "DateOfBirth" })
+                @Html.ValidationMessageFor(m => m.Dateofbirth)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, "", new { @class = "date-input", @placeholder = "Email" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password)
+                @Html.TextBoxFor(m => m.Password, "", new { @class = "txt-input", @placeholder = "Password" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Phone)
+                @Html.TextBoxFor(m => m.Phone, "", new { @class = "txt-input", @placeholder = "Phone" })
+                @Html.ValidationMessageFor(m => m.Phone)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.IdentityNumber)
+                @Html.TextBoxFor(m => m.IdentityNumber, "", new { @class = "txt-input", @placeholder = "IdentityNumber" })
+                @Html.ValidationMessageFor(m => m.IdentityNumber)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Address)
+                @Html.TextBoxFor(m => m.Address, "", new { @class = "txt-input", @placeholder = "Address" })
+                @Html.ValidationMessageFor(m => m.Address)
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Submit" name="Submit" class="txt-input" />
+            </div>
+            <div class="signin-link">Đã có tài khoản? <a href="#">Đăng nhập</a></div>
+        }
+    </div>
+
+</div>

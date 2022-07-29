@@ -1,0 +1,88 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="~/css/Style2.css" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Hãy liên hệ với chúng tôi</h3>
+                <p class="text">
+                    Đây là nơi bạn đưa ra yêu cầu
+                </p>
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.png" class="icon" alt="" />
+                        <p>Km11 Thạch Hòa, Thạch Thất, Hà Nội</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="" />
+                        <p>ngobacuong@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect: </p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="/CustomerDashBoard/AccidentSend" autocomplete="off">
+                    <h3 class="title">Vấn đề của bạn</h3>
+
+                    <div class="input-container">
+                        <input type="text" name="accident.Name" class="input" />
+                        <label for="">Họ tên</label>
+                        <span>Họ tên</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" name="accident.UserPhone" class="input" />
+                        <label for="">Số điện thoại</label>
+                        <span>Số điện thoại</span>
+                    </div>
+
+                    <div class="input-container textarea">
+                        <textarea name="accident.Status" class="input"></textarea>
+                        <label for="">Mô tả vấn đề</label>
+                        <span>Mô tả vấn đề</span>
+                    </div>
+                    <input type="submit" value="Gửi" class="btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

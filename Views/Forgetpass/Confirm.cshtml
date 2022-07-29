@@ -1,0 +1,60 @@
+﻿@model InsuranceCard1.Models.CustomerUser
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="~/css/res.css">
+    <link rel="stylesheet" href="~/css/stylePass.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <form action="Confirm" method="post" class="signup">
+        <h1 class="page-name text-center">HỖ TRỢ LẤY LẠI MẬT KHẨU</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="hd-frm-login"> Mã đăng kí </div>
+                    <br />
+                    <div class="box-border item-height">
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="txtEmail" class="col-lg-4 col-md-12 col-sm-12 col-form-label col-form-label-first">Vui lòng nhập mã đăng kí </label>
+                                <div class="col-lg-6 col-md-12">
+                                    <input name="model.Code" type="text" maxlength="255" id="ctl18_txtEmail" class="form-control" placeholder="Mã đăng kí" required>
+                                    @ViewData["sai"]
+                                </div>
+                                <input type="text" value="@ViewBag.Email" name="mail" hidden>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                </div>
+                                <div class="field btn">
+                                    <div class="btn-layer"></div>
+                                    <input type="submit" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

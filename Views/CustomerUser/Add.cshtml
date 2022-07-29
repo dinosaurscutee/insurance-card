@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Add Customer_User Information Form</title>
+    <link rel="stylesheet" href="~/css/styleForm.css" type="text/css" />
+</head>
+<body>
+    <h2>Add Customer_User Information</h2>
+    <form action="/CustomerUser/DoAdd" method="post">
+        <p> <h2>@ViewData["Caution"]</h2> </p>
+        <p>CustomerId: <input type="text" name="NewCs.CustomerId" value="" /></p>
+        <p>CustomerName: <input type="text" name="NewCs.Name" value="" /></p>
+        <p>Gender: <input type="text" name="NewCs.Gender" value="" /></p>
+        <p>Date Of Birth: <input type="text" name="NewCs.Dateofbirth" value="" /></p>
+        <p>IdentityNumber: <input type="text" name="NewCs.IdentityNumber" value="" /></p>
+        <p>Email: <input type="text" name="NewCs.Email" value="" /></p>
+        <p>Phone: <input type="text" name="NewCs.Phone" value="" /></p>
+        <p>UserName: <input type="text" name="NewCs.Username" value="" /></p>
+        <p>Address: <input type="text" name="NewCs.Address" value="" /></p>
+        <p>Password: <input type="text" name="NewCs.Password" value="" /></p>
+        <p>StaffID: <input type="text" name="NewCs.StaffID" value="" /></p>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+</body>
+</html>
