@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using CardInsu.Models
+@model List<History>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>List of products</title>
+    <link rel="stylesheet" href="~/css/styleTable.css" />
+</head>
+<body>
+    <h2> Customer_History Information </h2>
+    <p>
+        <table style="width: 100%">
+            <tr>
+                <th>HistoryId</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Type_History</th>
+            </tr>
+            @foreach (History a in Model)
+            {
+                <tr>
+                    <td>@a.HistoryId</td>
+                    <td>@a.Name </td>
+                    <td>@a.Username </td>
+                    <td>@a.TypeHistory </td>
+                    <td><a href="/History/Edit/@a.HistoryId">Edit</a></td>
+                    <td><a href="/History/Delete/@a.HistoryId">Delete</a></td>
+                </tr>
+            }
+        </table>
+</body>
+</html>
